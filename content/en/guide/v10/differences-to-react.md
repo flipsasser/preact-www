@@ -26,7 +26,7 @@ We've come across the following differences between React's synthetic event syst
 
 - Browser events don't bubble through `<Portal>`-Components
 - The clear "x" button in IE11 for `<input type="search">` elements does not fire an `input` event.
-- Use `onInput` instead `onChange` for `<input>`-elements (**only if `preact/compat` is not used**)
+- Use `onInput` instead of `onChange` for `<input>`-elements (**only if `preact/compat` is not used**)
 
 The other main difference is that we follow a bit more closely the DOM specification. One example of that is that you can use `class` instead of `className`.
 
